@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/financialauth
+    username: fap
+    password: fap_secret
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  kafka:
+    bootstrap-servers: localhost:9092
+
+# Relaxar healthcheck no profile local para facilitar dev
+management:
+  endpoint:
+    health:
+      show-details: always
+
+# Logging mais verboso em desenvolvimento
+logging:
+  level:
+    com.financialauth: DEBUG
+    org.springframework.security: DEBUG
+    org.flywaydb: INFO
