@@ -1,4 +1,4 @@
-package dev.arantesandre.financial_auth_platform;
+package dev.arantesandre.financial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

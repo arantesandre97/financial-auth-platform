@@ -1,5 +1,6 @@
 package dev.arantesandre.financial_auth_platform;
 
+import dev.arantesandre.financial.FinancialAuthPlatformApplication;
 import org.springframework.boot.SpringApplication;
 
 public class TestFinancialAuthPlatformApplication {
